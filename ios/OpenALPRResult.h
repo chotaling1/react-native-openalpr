@@ -8,8 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface PlateResult : NSObject
+@interface OpenALPRResult : NSObject
 
+@property (nonatomic) bool isError;
 @property (nonatomic, strong) NSString *plate;
 @property (nonatomic, strong) NSArray *points;
 @property (nonatomic) float confidence;

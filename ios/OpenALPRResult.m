@@ -6,8 +6,8 @@
 //  Copyright © 2017 CarDash. All rights reserved.
 //
 
-#import "PlateResult.h"
+#import "OpenALPRResult.h"
 
-@implementation PlateResult
+@implementation OpenALPRResult
 
 @end
